@@ -1,0 +1,265 @@
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    font-family: Copperplate, fantasy;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#t1 {
+    font-size: 140px;
+    margin: 40px 40px 30px 40px;
+    color: white;
+}
+#pic1 {
+    font-style: italic;
+    font-size: 11px;
+    color: white; 
+}
+#p1a {
+    display: block;
+    margin-left: auto;
+margin-right: auto;
+}
+#bild1 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+#text1 {  
+    width: 800px;
+    margin: auto;
+    color: white;
+}
+
+#c1 {
+    width: 800px;
+    margin: auto;
+    color: white; 
+}
+#gif1 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+
+#flexbox-2 {
+    display: flex;
+    flex-direction: column;  
+    margin: 70px;
+    }
+.img-column {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding: 30px;
+    border: 2px solid white;
+    margin: 20px;
+}
+.shonen-text {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+align-items: center;
+}
+.fyra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.tre {
+    display: flex;
+    flex-direction: column;
+color: white;
+align-items: center;
+margin: 50px;
+border: 2px solid white;
+
+}
+.titles {
+    font-size: 30px;
+}
+.slime-text {
+    width: 400px;
+    margin: 50px;
+}
+.pic6 {
+    font-style: italic;
+    font-size: 11px;
+    color: white;
+}
+
+
+
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: 2px groove black;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ddd;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border: groove black;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+
+.titles-2 {
+    font-size: 30px;
+    margin: 50px;
+}
+.titles-over {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+#bild8 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.first-picture {
+    border: 8px inset white;
+}
+#first-picture1 {
+    border: 8px inset pink;
+}
+#first-picture2 {
+    border: 8px inset cyan;
+}
+#first-picture4 {
+    border: 8px inset firebrick;
+}
+#first-picture9 {
+    border: 8px double blueviolet;
+}
+
+
+
+#link-1 {
+    background: linear-gradient(-45deg, #00008B, #006400,#0000FF, #00FFFF);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#link-2 {
+    background: linear-gradient(-45deg, #A9A9A9, #000000, #800000, #000080);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#link-3 {
+    background: linear-gradient(-45deg, #4B0082, #708090, #A0522D, #B8860B);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+
+
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#link-4 {
+    background: linear-gradient(-45deg, #000000, #8A2BE2, #000000, #B22222);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#clockDisplay{
+    margin:60px auto;
+    width: 600px;
+    animation: gradient 15s ease infinite;
+    border: 5px inset #ededee;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.2);
+    padding: 6px;
+      height: 100px;
+    color: white;
+      padding-top: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:60px;
+    text-align: center;
+     
+    letter-spacing: 2px;
+}
+ 
